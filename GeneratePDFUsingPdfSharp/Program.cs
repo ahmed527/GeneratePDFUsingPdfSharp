@@ -1,5 +1,5 @@
 
-namespace GeneratePDFUsingPdfSharp
+namespace GeneratePDFUsingGeneratePDFMigraDoc
 {
     public class Program
     {
@@ -14,8 +14,9 @@ namespace GeneratePDFUsingPdfSharp
 
             var app = builder.Build();
             PdfSharp.Fonts.GlobalFontSettings.FontResolver = new MinimalFontResolver();
+            //System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
 
-          
+
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();

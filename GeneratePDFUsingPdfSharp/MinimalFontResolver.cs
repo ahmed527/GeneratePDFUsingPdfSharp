@@ -1,6 +1,6 @@
 ﻿using PdfSharp.Fonts;
 
-namespace GeneratePDFUsingPdfSharp
+namespace GeneratePDFUsingGeneratePDFMigraDoc
 {
     public class MinimalFontResolver : IFontResolver
     {

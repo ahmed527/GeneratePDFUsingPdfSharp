@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace GeneratePDFUsingPdfSharp
+namespace GeneratePDFUsingGeneratePDFMigraDoc
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -35,7 +34,7 @@ namespace GeneratePDFUsingPdfSharp
     }
 };
 
-            var pdfService = new PdfReportService();
+            var pdfService = new PdfReportMigraDocService();
             byte[] pdfBytes = pdfService.GenerateReport(data);
 
             return File(pdfBytes, "application/pdf", "TripReport.pdf");

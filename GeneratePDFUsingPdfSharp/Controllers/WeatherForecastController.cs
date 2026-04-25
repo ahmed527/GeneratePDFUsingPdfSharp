@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace GeneratePDFUsingPdfSharp.Controllers
+namespace GeneratePDFUsingGeneratePDFMigraDoc.Controllers
 {
     [ApiController]
     [Route("[controller]")]
