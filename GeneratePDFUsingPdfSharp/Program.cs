@@ -1,5 +1,5 @@
 
-namespace GeneratePDFUsingPdfSharp
+namespace GeneratePDFUsingGeneratePDFMigraDoc
 {
     public class Program
     {

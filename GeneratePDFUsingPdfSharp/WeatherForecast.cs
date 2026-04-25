@@ -1,4 +1,4 @@
-namespace GeneratePDFUsingPdfSharp
+namespace GeneratePDFUsingGeneratePDFMigraDoc
 {
     public class WeatherForecast
     {
